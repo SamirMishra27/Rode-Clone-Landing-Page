@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100%;
+    font-family: Inter, Sans-serif;
+}
+
+.highlight-product-container {
+    background-image: url("./images/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.highlight-product-container-two {
+    background-image: url("./images/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.highlight-product-container-three {
+    background-image: url("./images/rode-nt-usb-webheader-v7-1920x700-rgb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 440px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .highlight-product-container {
+        background-image: url("./images/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg");
+        background-size: 100% auto;
+        background-color: black;
+        background-position-y: top;
+    }
+
+    .highlight-product-container-three {
+        background-size: 200% auto;
+        background-color: white;
+        background-position: bottom left;
+    }
+}
