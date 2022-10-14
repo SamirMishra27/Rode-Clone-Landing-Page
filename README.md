@@ -29,3 +29,4 @@ It is fully responsive on all mobile devices!
 
 ### 😊 If you liked my work
 Please don't forget to leave a star ❤️
+Thank you for visiting my repository!
